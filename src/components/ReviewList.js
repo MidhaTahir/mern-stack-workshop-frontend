@@ -18,7 +18,7 @@ const ReviewList = () => {
   return (
     <div>
       {reviews.map((review) => (
-        <Review key={review.id} {...review} />
+        <Review key={review._id} {...review} />
       ))}
     </div>
   );
